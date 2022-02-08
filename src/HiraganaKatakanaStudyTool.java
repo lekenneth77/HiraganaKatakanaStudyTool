@@ -226,7 +226,6 @@ public class HiraganaKatakanaStudyTool {
                 System.out.println("That's not a valid number of words! Enter Again!");
             } else {
                 rounds = words;
-                //maybe add a confirmation check?
                 beginGame(sc, wordKanaAnswerKey[0], wordKanaAnswerKey[1], rounds);
                 System.out.println("Would you like to practice again with a different amount of words?");
                 System.out.print("Y for Yes, anything else for No: ");
